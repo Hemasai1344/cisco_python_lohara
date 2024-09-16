@@ -80,22 +80,3 @@ def menus():
         choice = menu()
     print('your salary automation was finished ...:)')
 menus()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
