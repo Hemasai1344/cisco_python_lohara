@@ -11,4 +11,3 @@ class Employee:
 
 hemasai = Employee('Hemasai','3/192,Pallamkurru','PYABC1021',200000)
 print(hemasai)
-

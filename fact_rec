@@ -1,0 +1,6 @@
+def fact_rec(num):
+    if num==0 or num==1:
+        return 1
+    return num*fact_rec(num-1)
+s=fact_rec(5)
+print(s)
