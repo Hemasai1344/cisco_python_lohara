@@ -1,2 +1,2 @@
-List: ['apple', 'banana', 'mango', 'grape']
-Tuple: ('apple', 'banana', 'mango', 'grape')
+List: ['apple', 'banana', 'kiwi', 'grape', 'lollypop']
+Tuple: ('apple', 'banana', 'kiwi', 'grape', 'lollypop')
