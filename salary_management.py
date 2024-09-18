@@ -38,14 +38,14 @@ def find_min():
 
 def menu():
     choice = int(input('''
-                   1-add
-                   2-delete
-                   3-sum
-                   4-min
-                   5-max
-                   6-avg
-                   7-exit
-                   your choice...'''))
+1-add
+2-delete
+3-sum
+4-min
+5-max
+6-avg
+7-exit
+your choice...'''))
     
     if choice == 1:
         salary = float(input('enter the salary of a person '))
