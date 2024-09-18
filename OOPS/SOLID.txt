@@ -1,0 +1,16 @@
+S-> single responsiblity principle (class, component, service)
+if we change any class it will reflect every where
+
+O-> open closed principle ()
+library allow to read but not to modified 
+open for extension and closed for modification
+
+L-> lisco substituion principle
+penguin can't fly and eagle can fly, so we can make two for flying birds 
+
+I-> Interface segregation principle
+if we are not using some methods it is not confusing so we have to use all methods.
+
+D-> Dependency Inversion principle
+low level module -> data base management system
+high level module -> using data base management system
