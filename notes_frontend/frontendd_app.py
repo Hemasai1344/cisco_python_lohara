@@ -68,4 +68,3 @@ elif choice == 5:
     if (input("Are you sure to delete? ")=="yes"):
         app.delete(id)
         print("Deleted Successfully!")
-
