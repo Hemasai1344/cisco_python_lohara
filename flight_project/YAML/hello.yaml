@@ -1,0 +1,24 @@
+# key value pair
+
+"banana" : "iam an fruit that helps for energy"
+21 : "Hemasai Roll Number"
+---
+#lists
+- Apple
+- Banana
+- Grape
+- Muskmelon
+---
+# Block
+cities:
+  - Hyderabad
+  - Bangalore
+  - Chennai
+  - New Delhi
+
+---
+cities : [Delhi, Ahmedabad]
+---
+{mango: "yellow fruit", age : 56}
+
+...

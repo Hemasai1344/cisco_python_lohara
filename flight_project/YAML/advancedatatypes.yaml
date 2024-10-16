@@ -1,0 +1,78 @@
+student : !!seq
+  - hemasai
+  - venkat
+  - yuktha
+  - sree
+
+# like this also we can write lists
+
+students : [hemasai, thaninki]
+
+#if some of the values in the sequence is empty in that we have to use sparse to create seq
+
+sparse seq:
+  - hey
+  - how 
+  - are
+  -
+  - you
+  - Null
+
+# nested sequencee 
+
+- 
+  - mango
+  - orange 
+  - banana
+-
+  - grape
+  - peach
+  - kissmiss
+
+# key value pairs is called as hashmaps
+
+!!map
+
+#nested maps: map with in a map is called nested maps
+
+name : Hemasai Thaninki
+role:
+  age: 21
+  job: sdet
+
+# the above one is same as
+
+name : Hemasai Thaninki
+role : {age: 21, job: sdet}
+
+# if key have duplicate values we use pairs
+# !!pairs
+
+pair example: !!pairs
+  - job : student
+  - job : teacher
+
+# the above one will be array of hash tables
+pair example : !!pairs [job: student, job: teacher]
+
+# sets
+# set will allow you to have multiple unique values
+
+names: !!set
+  ? Hemasai
+  ? Thaninki
+  ? Cisco
+
+# dictonary : !!omap
+
+people : !!omap
+  - Hemasai :
+      name : Hemasai Thaninki
+      age : 21
+      city : amalapuram
+  - yuktha :
+      name : Yuktha sree 
+      age : 21
+      city : nellore
+
+

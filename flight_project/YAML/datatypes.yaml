@@ -1,0 +1,51 @@
+#let's talk about string variables
+
+myself : "Hemasai Thaninki"
+company : Cisco
+Job : 'SDET'
+
+bio: |
+hey my name is hemasai 
+iam a kind guy
+
+#so we can also write code as multiple lines and it has to be written in single line.
+
+message : >
+hello 
+all 
+how are you 
+"?"
+
+#the above message will be taken as single line only
+#same as 
+message : !!str hello all how are you ?
+
+#specifying data types in yaml
+number : 21
+marks : 99.99
+booleanValue : !!bool No #n, N, false, False, FALSE
+# same for true -> yes, y, Y
+
+#specify the type
+
+# var : !!(type) value
+
+zero : !!int 0
+positiveNum : !!int 79
+Negativenum : !!int -1
+binaryNum : !!int 0b1011
+octalNum : !!int 06574
+hexa : !!int 0x1244
+commaValue : !!int 650_680 #650,680
+
+#floating point numbers 
+
+marks : !!float 98.9
+infinite : !!float .inf
+not_a_num : .nan
+
+#null 
+
+surname : !!null Null
+~ : "This is a null key"
+
